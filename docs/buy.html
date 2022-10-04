@@ -13,40 +13,49 @@
 </head>
 <body>
 
-<!-- start header -->
-<header class="header">
-	<div class="header__container">
-		<div class="logo">
-			<a href="index.html">
+	<div class="content">
+		<div class="sidebar">
+			<a href="index.html" class="sidebar__logo">
 				NIXXE
 			</a>
+
+			<div class="sidebar__menu">
+
+				<a href="walet.html" class="sidebar__menu-link active">
+					Wallet
+				</a>
+
+				<a href="pending-request.html" class="sidebar__menu-link">
+					Pending Requests
+				</a>
+
+				<a href="transactions.html" class="sidebar__menu-link">
+					Transactions
+				</a>
+
+				<a href="profile.html" class="sidebar__menu-link">
+					Profile
+				</a>
+
+			</div>
 		</div>
-		<a href="login.html" class="login-link">
-			Login
-		</a>
-		
-	</div>
-</header>
-<!-- end header -->
 
-<!-- start sub-header -->
-<div class="sub-header">
-	<div class="container">
-		<h2 class="h2">
-			Quickly buy and sell virtual assets
-		</h2>
+		<div class="tab-content">
+			<div class="tab-content__wrapper">
+				<div class="tab-content__header">
 
-		<div class="sub-title">
-			Use your credit or debit card to buy crypt assets including 
-Bitcoin, Ethereum, USDT, EUROC
-		</div>
-	</div>
-</div>
-<!-- end sub-header -->
+				<div class="tab-content__header-text">
+					
+					<a href="walet.html" class="tab-content__header-value">
+						<img src="img/prev.svg" alt="">
+						Buy
+					</a>
+				</div>
+			</div>
+			
+			<!-- start converter  -->
 
-<!-- start converter  -->
-<div class="converter">
-	<div class="converter__wrapper">
+	<div class="converter__wrapper converter__wrapper--buy">
 		<div class="converter__item">
 			<h3 class="h3">
 				I want to spend
@@ -76,32 +85,53 @@ Bitcoin, Ethereum, USDT, EUROC
 
 		</div>
 
-		<a href="" class="button">
+		<a href="buy-payment.html" class="button">
 			Buy
 		</a>
 	</div>
-</div>
+
 <!-- end converter -->
 
-<!-- start footer -->
-<footer class="footer">
-	<div class="container">
-		<div class="footer__text">
-			Terms and Conditions | Privacy Policy
-		</div>
 
-		<div class="footer__copy">
-			2022 Nexo Ltd, All rights reserved
+
+			</div>
+			
 		</div>
 	</div>
-</footer>
-<!-- end footer -->
 
- <script
-  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  crossorigin="anonymous"></script>
+<div class="footer-menu">
+
+	<a href="walet.html" class="footer-menu__item">
+		<img src="img/f1.svg" alt="">
+		<div class="dot"></div>
+	</a>
+
+	<a href="pending-request.html" class="footer-menu__item">
+		<img src="img/f2.svg" alt="">
+	</a>
+
+	<a href="transactions.html" class="footer-menu__item">
+		<img src="img/f3.svg" alt="">
+		<div class="request-value">
+			2
+		</div>
+	</a>
+
+	<a href="profile.html" class="footer-menu__item">
+		<img src="img/f4.svg" alt="">
+	</a>
+
+
+</div>
+
+	<script
+	src="https://code.jquery.com/jquery-3.6.1.min.js"
+	integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+	crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 	<script src="js/main.js"></script>
+	
+	
+
 </body>
 </html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Home</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+	<div class="content">
+		<div class="sidebar">
+			<a href="index.html" class="sidebar__logo">
+				NIXXE
+			</a>
+
+			<div class="sidebar__menu">
+
+				<a href="walet.html" class="sidebar__menu-link active">
+					Wallet
+				</a>
+
+				<a href="pending-request.html" class="sidebar__menu-link">
+					Pending Requests
+				</a>
+
+				<a href="transactions.html" class="sidebar__menu-link">
+					Transactions
+				</a>
+
+				<a href="profile.html" class="sidebar__menu-link">
+					Profile
+				</a>
+
+			</div>
+		</div>
+
+		<div class="tab-content">
+			<div class="tab-content__wrapper">
+				<div class="tab-content__header">
+
+				<div class="tab-content__header-text">
+					
+					<a href="walet.html" class="tab-content__header-value">
+						<img src="img/prev.svg" alt="">
+						Buy
+					</a>
+				</div>
+			</div>
+			
+			<!-- start converter  -->
+
+	<div class="converter__wrapper converter__wrapper--buy">
+		<div class="converter__item">
+			<h3 class="h3">
+				I want to spend
+			</h3>
+			<div class="converter__input-wrapper">
+				<input value="100" type="number" placeholder="20 - 20,000" class="converter__input">
+				<select class="select" class="select">
+				
+					<option value="" data-img_src="img/dollar.svg" selected>USD</option>
+					<option  value="" data-img_src="img/btc.svg">BTC</option>
+				</select> 
+			</div>
+
+		</div>
+
+		<div class="converter__item">
+			<h3 class="h3">
+				Choose payment method
+			</h3>
+			<div class="converter__input-wrapper converter__input-wrapper--start">
+				<input value="Visa ****9942" type="text" placeholder="0.00" class="converter__input">
+				<div class="input-text">
+					≈ 0.005102 BTC
+				</div>
+			</div>
+
+			<a href="" class="text-input--link text-input">Add new card
+				<img src="img/arrow.svg" alt="">
+			</a>
+
+		</div>
+
+		<a href="buy-payment.html" class="button">
+			Buy
+
+		</a>
+	</div>
+
+<!-- end converter -->
+
+
+
+			</div>
+			
+		</div>
+	</div>
+
+<div class="footer-menu">
+
+	<a href="walet.html" class="footer-menu__item">
+		<img src="img/f1.svg" alt="">
+		<div class="dot"></div>
+	</a>
+
+	<a href="pending-request.html" class="footer-menu__item">
+		<img src="img/f2.svg" alt="">
+	</a>
+
+	<a href="transactions.html" class="footer-menu__item">
+		<img src="img/f3.svg" alt="">
+		<div class="request-value">
+			2
+		</div>
+	</a>
+
+	<a href="profile.html" class="footer-menu__item">
+		<img src="img/f4.svg" alt="">
+	</a>
+
+
+</div>
+
+	<script
+	src="https://code.jquery.com/jquery-3.6.1.min.js"
+	integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+	crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	
+
+</body>
+</html>

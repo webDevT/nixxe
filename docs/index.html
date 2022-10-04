@@ -13,10 +13,95 @@
 </head>
 <body>
 
+<!-- start header -->
+<header class="header">
+	<div class="header__container">
+		<div class="logo">
+			<a href="index.html">
+				NIXXE
+			</a>
+		</div>
+		<a href="login.html" class="login-link">
+			Login
+		</a>
+		
+	</div>
+</header>
+<!-- end header -->
+
+<!-- start sub-header -->
+<div class="sub-header">
+	<div class="container">
+		<h2 class="h2">
+			Quickly buy and sell virtual assets
+		</h2>
+
+		<div class="sub-title">
+			Use your credit or debit card to buy crypt assets including 
+Bitcoin, Ethereum, USDT, EUROC
+		</div>
+	</div>
+</div>
+<!-- end sub-header -->
+
+<!-- start converter  -->
+<div class="converter">
+	<div class="converter__wrapper">
+		<div class="converter__item">
+			<h3 class="h3">
+				I want to spend
+			</h3>
+			<div class="converter__input-wrapper">
+				<input type="number" placeholder="20 - 20,000" class="converter__input">
+				<select class="select" class="select">
+				
+					<option value="" data-img_src="img/dollar.svg" selected>USD</option>
+					<option  value="" data-img_src="img/btc.svg">BTC</option>
+				</select> 
+			</div>
+
+		</div>
+
+		<div class="converter__item">
+			<h3 class="h3">
+				You will recieve
+			</h3>
+			<div class="converter__input-wrapper">
+				<input type="number" placeholder="0.00" class="converter__input">
+				<select class="select" class="select">
+				<option  value="" data-img_src="img/btc.svg" selected>BTC</option>
+					<option value="" data-img_src="img/dollar.svg" >USD</option>		
+				</select> 
+			</div>
+
+		</div>
+
+		<a href="" class="button">
+			Buy
+		</a>
+	</div>
+</div>
+<!-- end converter -->
+
+<!-- start footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="footer__text">
+			Terms and Conditions | Privacy Policy
+		</div>
+
+		<div class="footer__copy">
+			2022 Nexo Ltd, All rights reserved
+		</div>
+	</div>
+</footer>
+<!-- end footer -->
+
  <script
   src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
   crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

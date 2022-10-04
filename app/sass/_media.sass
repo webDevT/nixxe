@@ -5,26 +5,195 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
 	/**/
-
+	.tab-content 
+		padding-left: 30px
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1100px)
+	/**/
+	.sidebar
+		width: 300px
+	.tab-content 
+		margin-left: 300px
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
 	/**/
+	//start header style
+	.header 
+		padding: 15px 0
+	.tab-content 
+		width: 100%
+	.sidebar
+		min-width: 300px
+	.tab-content 
+		padding-right: 30px
+
+	//end header style
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
 	/**/
 
+	//start global style 
+
+	.h2 
+		font-size: 26px
+
+	//end global style
+	
+	//start header style
+	.logo 
+		font-size: 45px
+	.login-link
+		font-size: 16px
+	//end header style
+
+	//start sub-header style 
+	.sub-header
+		padding-top: 30px
+		.sub-title
+			max-width: 95%
+	//end sub-header style
+	
+	//start converter style
+	.sidebar 
+		display: none
+	.tab-content
+		padding-left: 20px 
+		padding-right: 20px
+	.tab-content__wrapper 
+		width: 100%
+	.tab-content__header__buttons 
+		display: none
+	.tab-content 
+		padding-top: 40px
+	.tab-content__header 
+		padding-bottom: 36px
+	.tab-content 
+		margin-left: 0px 
+	
+	//end converter style
+
+	//start mobile menu style
+	.mobile-menu
+		display: block
+		background: #F2F2F2
+		border-radius: 10px
+		padding: 0 14px
+		margin-bottom: 36px
+	.mobile-menu__item
+		display: flex 
+		justify-content: space-between 
+		align-items: center
+		padding-top: 15px 
+		padding-bottom: 15px
+		border-bottom: 1px solid #DCDCDC
+	.mobile-menu__item-content
+		display: flex 
+		align-items: center
+	.mobile-menu__item-icon
+		margin-right: 19px
+
+	//end mobile menu style
+	.footer-menu 
+		display: flex 
+		justify-content: space-between
+		align-items: center
+		background: #fff
+		position: fixed 
+		bottom: 0 
+		left: 0 
+		width: 100%
+		padding: 20px 37px
+		z-index: 999
+	.content
+		padding-bottom: 100px
+	.footer-menu__item
+		position: relative
+	.dot 
+		width: 4px 
+		height: 4px 
+		border-radius: 50% 
+		background: $primary-color
+		position: absolute 
+		bottom: -5px
+		left: 50% 
+		transform: translateX(-50%)
+	.request-value
+		position: absolute 
+		top: 0 
+		right: 0
+		width: 13px 
+		height: 13px
+		border-radius: 50%
+		background: $primary-color 
+		color: #fff
+		font-size: 8px 
+		font-weight: 700
+		display: flex 
+		justify-content: center 
+		align-items: center
+	.converter__wrapper--buy  
+		width: 100%
+		margin-top: 20px
+
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px)
+@media only screen and (max-width : 510px)
 	/**/
+	.converter__wrapper
+		padding: 30px 20px 40px 20px
+	.converter__input 
+		max-width: 45vw
+	.select2-container 
+		padding-left: 10px
+	.converter__item 
+		padding-bottom: 20px
+	.sub-header 
+		padding-top: 20px
+	.footer  
+		padding-top: 70px
+	.converter__wrapper--buy 
+		padding: 0
+	.walet__items--transactions 
+		.walet__item-value
+			font-size: 14px
+		.walet__icon 
+			margin-right: 5px
+	.walet__item-title
+		font-size: 12px
+	.walet__item-text 
+		font-size: 12px
+	.walet__icon img 
+		width: 25px 
+		height: 25px
+	.modal-content 
+		padding-left: 20px 
+		padding-right: 20px
+		padding-top: 30px
+	.tab-content__header-value 
+		font-size: 30px
+
+	
+
 
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px)
+@media only screen and (max-width : 374px)
 	/**/
+	.converter__input 
+		max-width: 37vw
+	.phone__wrapper
+		.converter__input 
+			max-width: 51vw
+	.input 
+		width: 35px
+		margin-right: 0
+	.verify__inputs
+		display: flex 
+		justify-content: space-between
+
 
 
 /*==========  Mobile First  ==========*/

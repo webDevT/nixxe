@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Home</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+	<div class="content">
+		<div class="sidebar">
+			<a href="index.html" class="sidebar__logo">
+				NIXXE
+			</a>
+
+			<div class="sidebar__menu">
+
+				<a href="walet.html" class="sidebar__menu-link">
+					Wallet
+				</a>
+
+				<a href="pending-request.html" class="sidebar__menu-link active">
+					Pending Requests
+				</a>
+
+				<a href="transactions.html" class="sidebar__menu-link">
+					Transactions
+				</a>
+
+				<a href="profile.html" class="sidebar__menu-link">
+					Profile
+				</a>
+
+			</div>
+		</div>
+
+		<div class="tab-content">
+			<div class="tab-content__wrapper">
+				<div class="tab-content__header">
+
+				<div class="tab-content__header-text">
+				
+					<div class="tab-content__header-value">
+						Pending Requests
+					</div>
+				</div>
+
+			</div>
+
+
+			
+			<div class="walet__items walet__items--transactions">
+
+				<div class="walet__item">
+					<div class="walet__item-left">
+						
+						<div class="walet__item-content">
+							<div class="walet__item-title">
+								Request from Swifty
+							</div>
+							<div class="walet__item-text">
+								12 Sep 2022
+							</div>
+						</div>
+					
+					</div>
+
+					<div class="walet__item-value">
+						500.00 USDC
+					</div>
+					
+				</div>
+
+				<div class="walet__item">
+					<div class="walet__item-left">
+						
+						<div class="walet__item-content">
+							<div class="walet__item-title">
+								Request from Shop A
+							</div>
+							<div class="walet__item-text">
+								12 Sep 2022
+							</div>
+						</div>
+					
+					</div>
+
+					<div class="walet__item-value">
+						- 60.18 EURC
+					</div>
+					
+				</div>
+
+				<div class="walet__item">
+					<div class="walet__item-left">
+						
+						<div class="walet__item-content">
+							<div class="walet__item-title">
+								Request from Shop X
+							</div>
+							<div class="walet__item-text">
+								12 Sep 2022
+							</div>
+						</div>
+					
+					</div>
+
+					<div class="walet__item-value">
+						28.97 EURC
+					</div>
+					
+				</div>
+
+				<div class="walet__item">
+					<div class="walet__item-left">
+						
+						<div class="walet__item-content">
+							<div class="walet__item-title">
+								Request from Shop XY
+							</div>
+							<div class="walet__item-text">
+								
+12 Sep 2022
+							</div>
+						</div>
+					
+					</div>
+
+					<div class="walet__item-value">
+						28.97 USDC
+					</div>
+					
+				</div>
+
+			
+
+			</div>
+
+
+
+			</div>
+			
+		</div>
+	</div>
+
+<div class="footer-menu">
+
+	<a href="walet.html" class="footer-menu__item">
+		<img src="img/f1.svg" alt="">
+		<div class="dot"></div>
+	</a>
+
+	<a href="pending-request.html" class="footer-menu__item">
+		<img src="img/f2.svg" alt="">
+	</a>
+
+	<a href="transactions.html" class="footer-menu__item">
+		<img src="img/f3.svg" alt="">
+		<div class="request-value">
+			2
+		</div>
+	</a>
+
+	<a href="profile.html" class="footer-menu__item">
+		<img src="img/f4.svg" alt="">
+	</a>
+
+
+</div>
+
+
+<!-- start payment request modal -->
+<div class="payment-request-modal">
+	<div class="modal-content">
+		
+		<div class="close">
+			<img src="img/close.svg" alt="">
+		</div>
+
+		<div class="tab-content__header-value">
+			Payment Request
+		</div>
+
+		<div class="current-balanc">
+			
+			Current Balance <span>3,512.18 USDC</span>
+		</div>
+
+		<div class="payment-reques-wrapper">
+			<div class="payment-reqyest-value">			
+			1,212.10 <span>USDC</span>
+		</div>
+		<div class="payment-request-title">
+			From Swifty
+		</div>
+		</div>
+
+
+		<div class="modal-buttons">
+			<a href="" class="button button--transparent">Decline</a>
+			<a href="" class="button">Accept</a>
+		</div>
+
+		
+
+	</div>
+</div>
+
+<!-- end payment request modal -->
+
+	<script
+	src="https://code.jquery.com/jquery-3.6.1.min.js"
+	integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+	crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	
+
+</body>
+</html>
